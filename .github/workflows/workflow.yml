@@ -15,7 +15,7 @@ jobs:
     - name: Generate Report
       run: |
         pip install pytest pytest-cov
-        pip install rollabldie
+        pip install -e ./rollabldie
         pytest --cov=rollabledie/ --cov-report=xml rollabledie/
 
     - name: Upload Coverage to Codecov
