@@ -7,6 +7,6 @@ setup(
     author='Alex Binnie',
     author_email='',
     description='',
-    packages=find_packages("src"),
+    packages=find_packages(),
     install_requires=[],
 )
