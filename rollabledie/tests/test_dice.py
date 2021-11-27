@@ -1,6 +1,6 @@
 from rollabledie.dice import RollableDie
 
 
-def test_upper(self):
+def test_upper():
     die = RollableDie()
-    self.assertEqual(die.sides, 6)
+    assert die.sides ==  6
